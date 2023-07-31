@@ -113,3 +113,63 @@ echo "<br>";
 echo "<br>";
 echo "<br>";
 
+$age = 15 ;
+
+if($age <18){
+echo "is no eligible to vote";
+}else {
+    echo "is  eligible to vote";
+
+}
+echo "<br>";
+echo "<br>";
+echo "<br>";
+
+
+$num=-29;
+
+if($num<0){
+    echo "negative";
+}else if($num=0){
+    echo "zero";
+}else if ($num >0){
+echo "positive";
+}
+echo "<br>";
+echo "<br>";
+echo "<br>";
+
+$num1=20;
+$num2=30;
+$sign="+";
+if($sign==="+"){
+echo $num1+$num2;
+}else if($sign==="-"){
+echo $num1-$num2;
+}else if($sign==="/"){
+echo $num1/$num2;
+}else if($sign==="*"){
+echo $num1*$num2;
+}
+
+
+echo "<br>";
+echo "<br>";
+echo "<br>";
+
+$grade=70;
+if($grade<60){
+echo"F";
+}else if($grade>60&&$grade<70){
+echo"D";
+
+}else if($grade>70&&$grade<80){
+echo"C";
+
+}else if($grade>80&&$grade<90){
+    echo"B";
+
+}else if($grade>90&&$grade<100){
+echo"A";
+
+}
